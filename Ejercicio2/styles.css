@@ -1,0 +1,35 @@
+
+#fondo {
+  background-color: rgba(173, 216, 230, 0.5); 
+  width: 300px; 
+  height: 200px; 
+  border: 3px solid black; 
+}
+
+
+.medida-absoluta {
+  width: 500px; 
+  font-size: 20px; 
+  border: 4px dashed red; 
+}
+
+
+.medida-relativa {
+  width: 50%; 
+  font-size: 1.5em; 
+  border: 2px dotted green; 
+}
+
+
+#fondo {
+  border-radius: 10px; 
+
+}  
+
+.medida-absoluta {
+  border-radius: 0; 
+}
+
+.medida-relativa {
+  border-radius: 15px; 
+}
