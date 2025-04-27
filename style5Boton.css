@@ -1,0 +1,29 @@
+/*Contador con Botones
+Crear un botón para incrementar y otro para decrementar un contador mostrado en
+un elemento div. Actualizar el texto del div al hacer clic.*/
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contador{
+    font-size: 24px;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}

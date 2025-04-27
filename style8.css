@@ -1,0 +1,37 @@
+/*Eliminar Elementos de una Lista
+Modificar el ejercicio anterior para que cada elemento generado tenga un botón
+de "Eliminar" que borre solo ese elemento de la lista*/
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul{
+    list-style-type: armenian;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid palevioletred;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+button:hover{
+    background-color: pink;
+}
